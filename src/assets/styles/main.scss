@@ -1,0 +1,19 @@
+//----------------FONTS-----------------
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap');
+//----------------another-plics-----------------
+@import '_vars';
+@import 'mixins';
+@import 'vendor.scss';
+@import '_settings.scss';
+@import 'MyButton.scss';
+
+//----------------COMPONENTS-----------------
+
+
+@import 'components/VHeaderComp.scss';
+@import 'components/VMainPage.scss';
+
+

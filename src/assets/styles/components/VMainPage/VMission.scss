@@ -1,0 +1,234 @@
+.mission {
+ background-color: $color-light;
+ &-list{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:188px;
+   padding-bottom: 48px;
+ }
+}
+.mission-list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  img{
+    height: 48px;
+    width: 48px;
+
+  }
+}
+
+.mission_subtitle {
+font-family: "Ubuntu";
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: $color-ebony;
+margin: 0;
+margin-top: 24px;
+margin-bottom: 8px;
+}
+.mission_descr {
+font-family: "Ubuntu";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: $color-storm;
+}
+.ask-section{
+  padding-bottom: 48px;
+}
+.ask-form-block{
+  margin-top: 32px;
+  padding-bottom: 48px;
+}
+.form-field__caption{
+display: block;
+font-family: "Ubuntu";
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: $color-gray;
+}
+.form-field:nth-child(1){
+  margin-left: 60px;
+}
+.know-form{
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+.know-form__field{
+margin-right: 24px;
+
+input{
+background: #F4F5F7;
+border: 1px solid #D7DADD;
+box-sizing: border-box;
+border-radius: 4px;
+height: 44px;
+width: 100%;
+  }
+}
+
+.know-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 60px;
+  height: 44px;
+  align-self: flex-end;
+}
+.know-form__field:not(:last-child){
+  width: 23%;
+}
+
+.know-form__field:nth-child(3){
+
+flex-grow: 1;
+
+}
+
+//-------------our-services---------------
+.our-services{
+  background-image: url(../img/our-services-bg.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 85px;
+  padding-top: 212px;
+  margin-top: -111px;
+}
+.our-services-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.our-services-block_item {
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 90px 0 ;
+  box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  border-radius: 4px;
+}
+.our-services-block_item:nth-child(3){
+  background: url(../img/design.jpg) no-repeat;
+    background-position: cover;
+  background-size: cover;
+  .our-text{ color: $color-light;}
+
+}
+.our-photo {
+width:52px ;
+height: 48.55px;
+}
+.our-text {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 150%;
+text-align: center;
+color: $color-ebony;
+margin-top: 24px;
+}
+.our-bottom-content{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.our-title {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+display: flex;
+align-items: center;
+color: $color-ebony;
+margin-right: 40px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.ask-container{
+  position: relative;
+  margin-bottom: -92px;
+  background: #FFFFFF;
+  z-index: 2;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+}
+
+//=================selected-project===============
+.selected-project{
+  margin-bottom: 85px;
+}
+.selected-project-block{
+display: flex;
+justify-content: space-between;
+margin-bottom: 60px;
+align-items:flex-end
+}
+.selected-item-title{
+  margin-top: 16px;
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: $color-ebony;
+}
+.selected-project-title{
+max-width: 705px;
+}
+.selected-project-bulding{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.selected-project-bulding_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-items:center;
+}
+.btn-right{
+  height: 48px;
+  width: 48px;
+  background-color:$color-primary;
+  border-radius: 100%;
+  margin-left: 12px;
+}
+.selected-icon{
+  height: 24px;
+  width: 24px;
+}
+.selected-bottom-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 85px;
+}
+.selected-title{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: $color-ebony;
+}
+.selected-content-title{
+  margin-right: 40px;
+}

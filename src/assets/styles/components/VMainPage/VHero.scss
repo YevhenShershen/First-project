@@ -1,0 +1,44 @@
+
+.hero{
+  //создаем бекгроунд серый есл вдруг картинка не загрузится
+  background-color: grey;
+  background-image: url(../img/bg-image.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.hero-box {
+  max-width: 595px;
+  padding-top: 220px;
+  padding-bottom: 353px;
+}
+.hero-box_items {
+}
+.hero-item-title {
+font-family: "Ubuntu";
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 130%;
+letter-spacing: 1px;
+  color: $color-light;
+}
+.hero-item-title span{
+  color:$color-primary;
+}
+.hero-item-text {
+font-family: "Ubuntu";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: $color-light;
+margin-top: 24px;
+margin-bottom: 61px;
+}
+
+.hero-item-button button:not(:last-child){
+  margin-right: 24px;
+}
