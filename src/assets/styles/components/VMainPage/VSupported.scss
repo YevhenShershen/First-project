@@ -1,0 +1,99 @@
+.supported-section{
+  background: #F4F5F7;
+  padding-top: 80px;
+}
+.supported-firms-logos-items{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(6, 120px);
+  gap: 102px;
+}
+.supported-firms-logo{
+  max-height: 64px;
+}
+
+.clients-saying {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+
+}
+.clients-saying-box{
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+}
+.title--center {
+}
+.clients-img {
+  height: 72px;
+  width: 72px;
+}
+.clients-text {
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: $color-gray;
+}
+.clients-information {
+}
+.client-info {
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+color: $color-ebony;
+}
+.client-position {
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: $color-storm;
+}
+.btn-reset {
+}
+.btn-left {
+}
+.arr-left {
+}
+.selected-icon {
+}
+.btn-right-brown {
+  margin-left: 30px;
+}
+.arr-right {
+}
+.bac-icon {
+  fill: #424551;
+}
+.clients-photo {
+}
+
+//---------
+.clients-img {
+}
+.clients-text {
+}
+.clients-photo{
+  width: 495px;
+  height: 550px;
+  margin-bottom: -60px;
+  border-radius: 4px;
+}
+.clients-information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clients-information__item-right{
+  display: flex;
+  align-items: flex-end;
+}
