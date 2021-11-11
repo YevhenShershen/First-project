@@ -1,0 +1,130 @@
+.section-news {
+  background: #E5E5E5;
+  padding-bottom: 120px;
+
+  &__building-news {
+
+      }
+}
+.section-offset {
+}
+
+.build-block {
+  display: grid;
+  grid-template-columns: 705px auto;
+  margin-bottom: 85px;
+  gap: 30px;
+
+}
+.building-news:nth-child(1){
+  //Почему высота говна тут?
+  height: 551px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.building-news:nth-child(2){
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.building-news:nth-child(3){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:2 ;
+  grid-row-end:3;
+}
+.recent-news{
+  margin-bottom: 60px;
+
+}
+.building-news {
+
+
+
+
+  &__img {
+  }
+
+
+  &__title {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: $color-ebony;
+margin: 24px 24px 12px 24px;
+  }
+
+  // .building-news__information
+
+  &__information {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: $color-storm;
+    margin-left: 24px;
+    margin-bottom: 16px;
+  }
+
+  // .building-news__discr
+
+  &__discr {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $color-gray;
+    margin-left: 24px;
+    margin-bottom: 25px;
+    margin-right: 24px;
+  }
+}
+.building-block {
+
+
+  &_right {
+  }
+}
+
+
+.news-buttom {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &_title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: $color-ebony;
+    margin: 0px;
+    margin-right: 40px;
+
+  }
+}
+.building-news{
+  background: #FFFFFF;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+}
+
+.building-news__title_right{
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+}
+.building-news__information_right{
+  margin-bottom: 24px;
+}
