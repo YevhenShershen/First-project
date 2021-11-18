@@ -5,6 +5,7 @@
   <VSupported/>
   <VHeroFigures/>
   <VHeroNews/>
+  <VBuildButtom/>
   </template>
 
 <script>
@@ -14,6 +15,7 @@ import VMission from './VMainPage/VMission.vue'
 import VSupported from './VMainPage/VSupported.vue'
 import VHeroFigures from './VMainPage/VHeroFigures.vue'
 import VHeroNews from './VMainPage/VHeroNews.vue'
+import VBuildButtom from './VBuildButtom.vue'
 
 export default {
 components: {
@@ -22,7 +24,8 @@ VAboutSection,
 VMission,
 VSupported,
 VHeroFigures,
-VHeroNews
+VHeroNews,
+VBuildButtom
   },
   }
 </script>

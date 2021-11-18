@@ -1,7 +1,7 @@
 <template>
      <label for="" class="form-field" >
             <span class="form-field__caption">{{title}}</span>
-            <input class="comp-form" type="text" :placeholder="placehText">
+            <input class="comp-form" :class="className" :type="type" :placeholder="placehText">
 </label>
 </template>
 
@@ -9,6 +9,12 @@
 
   export default {
 props:{
+  className:{
+    type: String,
+  },
+  type:{
+    type: String,
+  },
 title:{
   type: String,
 },
@@ -27,5 +33,8 @@ border: 1px solid #D7DADD;
 box-sizing: border-box;
 border-radius: 4px;
 height: 44px;
+}
+.form-field{
+  margin: 0px;
 }
 </style>
