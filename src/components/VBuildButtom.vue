@@ -33,13 +33,11 @@ v-model="dataBase.Massege"
 :title="'Message*'"
 :placehText= "'Your message'"
 ></Vform>
-<Vform class="checkbox__item"
-v-model="Agree"
 
-:type="'checkbox'"
-:title="'I agree to receive communications from Createx Construction Bureau.'"
-
-></Vform>
+<label for="" class="form-field checkbox__item" >
+            <span class="form-field__caption">I agree to receive communications from Createx Construction Bureau.</span>
+            <input class="comp-form checkbox-form" type="checkbox" >
+</label>
 <MyButton class="btn--fil" @click="testFunction(dataBase2)">send request</MyButton>
 </form>
 </div>
@@ -75,6 +73,10 @@ components:{
   MyButton,
 },
 methods:{
+AgreeActive(){
+  this.Agree = !this.Agree
+  console.log(this.Agree)
+},
 formSubmited(items){
   this.Information= []
   for(let item in items ){

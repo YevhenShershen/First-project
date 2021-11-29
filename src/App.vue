@@ -1,14 +1,16 @@
 <template>
   <VHeaderComp></VHeaderComp>
-  <VMainPage ></VMainPage>
+  <router-view></router-view>
+  <!-- <VMainPage ></VMainPage> -->
+    <VSecondPage ></VSecondPage>
   <VFooter ></VFooter>
 </template>
 
 <script>
 import VHeaderComp from './components/VHeaderComp.vue'
-import VMainPage from './components/VMainPage.vue'
+// import VMainPage from './components/VMainPage.vue'
 import VFooter from './components/VFooter.vue'
-
+import VSecondPage from './components/VSecondPage.vue'
 export default {
     data(){
     return {
@@ -17,8 +19,9 @@ export default {
   },
 components: {
 VHeaderComp,
-VMainPage,
+// VMainPage,
 VFooter,
+VSecondPage,
   },
     methods:{
 

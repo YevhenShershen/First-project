@@ -1,0 +1,47 @@
+.services {
+  background-image: url(../img/our-services-bg.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 180px;
+  // .services__link
+
+  &__link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
+
+  }
+
+  // .services__title
+
+  &__title {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 130%;
+letter-spacing: 1px;
+color: #1E212C;
+margin: 40px 0px 24px 0px;
+
+  }
+
+  // .services__text
+
+  &__text {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+color: #787A80;
+margin: 0;
+  }
+}
+.container {
+}
