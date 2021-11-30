@@ -12,10 +12,10 @@
         <ul class="header-items">
           <li
             class="header-item list-reset"
-            v-for="item in headerMenu"
+            v-for="(item, id) in headerMenu"
             :key="item"
           >
-            {{ item }}
+           <a href="" @click="Navigation(Navigations[id])"> {{ item }}</a>
           </li>
         </ul>
       </nav>
@@ -48,6 +48,7 @@ import LogoPath from "@/assets/img/logo.svg";
 export default {
   data() {
     return {
+      Navigations:['/main', '/services'],
       LogoPath,
       alternTextLogo: "CREATEX",
       headerMenu: ["About US", "Services", "Work", "News", "Contacts"],
@@ -59,6 +60,9 @@ export default {
   },
   components: {},
   methods: {
+    Navigation(navigation){
+this.$router.push(navigation)
+    },
     SetSvg(imageName) {
       return require(`@/assets/img/${imageName}`);
     },

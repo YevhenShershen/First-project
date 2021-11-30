@@ -10,7 +10,6 @@
   // .information__discription
 
   &__discription {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,10 +20,8 @@
     width: 170px;
     padding-left: 12px;
     padding-right: 12px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    }
+    margin-top: 50px; }
+
   }
 
   // .information__discription-title
@@ -58,5 +55,8 @@ color: #787A80;
   grid-template-columns: repeat(2 , 1fr);
   grid-gap:120px 80px ;
   padding: 120px 0 120px 0 ;
+  @include mobile {
+    grid-template-columns: repeat(1 , 1fr);
+  }
 }
 

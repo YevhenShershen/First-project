@@ -2,7 +2,7 @@
   <VHeaderComp></VHeaderComp>
   <router-view></router-view>
   <!-- <VMainPage ></VMainPage> -->
-    <VSecondPage ></VSecondPage>
+    <!-- <VSecondPage ></VSecondPage> -->
   <VFooter ></VFooter>
 </template>
 
@@ -10,7 +10,7 @@
 import VHeaderComp from './components/VHeaderComp.vue'
 // import VMainPage from './components/VMainPage.vue'
 import VFooter from './components/VFooter.vue'
-import VSecondPage from './components/VSecondPage.vue'
+// import VSecondPage from './components/VSecondPage.vue'
 export default {
     data(){
     return {
@@ -21,7 +21,7 @@ components: {
 VHeaderComp,
 // VMainPage,
 VFooter,
-VSecondPage,
+// VSecondPage,
   },
     methods:{
 
